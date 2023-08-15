@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 10px 0;
+}
+h1{
+    margin: 10px 0;
+}
+
+h2 i{
+    color: red;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+h1 span{
+    color: saddlebrown;
+    
+}
+
+.card{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    margin: 5px;
+    width: 240px;
+    height: 150px;
+    border-radius: 15px ;
+    object-fit: cover;
+}
+
+h3{
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+
+
+
+@media (max-width:500px){
+    #pets{
+        flex-wrap: wrap;
+    }
+
+    
+
+
+}
